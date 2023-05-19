@@ -3,6 +3,8 @@
 def pesquisa_binaria(lista, item):
     baixo = 0
     alto = len(lista) - 1  # Verificando o tamanho/comprimento (lenght) da lista, ou seja o número de elementos contidos nela
+                           # Em seguida, subtrai 1 para obter o índice máximo válido na lista. 
+                           # Isso é feito porque os índices de uma lista começam em 0, então o índice máximo válido é o tamanho da lista menos 1.
 
     while baixo <= alto:
         meio = (baixo + alto) // 2
